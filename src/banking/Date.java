@@ -1,8 +1,5 @@
 package banking;
 
-/**
- * Representasi tanggal sederhana tanpa dependency eksternal.
- */
 public class Date {
 
     private final long epochMillis;
