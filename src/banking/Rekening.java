@@ -1,8 +1,5 @@
 package banking;
 
-/**
- * Superclass rekening dasar untuk sistem bank.
- */
 public class Rekening implements Transaksi {
 
     private String nomorRekening;
@@ -53,9 +50,6 @@ public class Rekening implements Transaksi {
         this.tanggalMembuka = tanggalMembuka;
     }
 
-    /**
-     * Menambah saldo.
-     */
     public void setorTunai(double jumlah) {
         if (jumlah <= 0) {
             System.out.println("✗ Jumlah setor harus lebih dari 0.");
@@ -65,9 +59,6 @@ public class Rekening implements Transaksi {
         System.out.println("✓ Setor tunai berhasil. Saldo baru: Rp" + saldo);
     }
 
-    /**
-     * Mengurangi saldo bila mencukupi.
-     */
     public void tarikTunai(double jumlah) {
         if (jumlah <= 0) {
             System.out.println("✗ Jumlah tarik harus lebih dari 0.");
@@ -81,9 +72,7 @@ public class Rekening implements Transaksi {
         System.out.println("✓ Tarik tunai berhasil. Saldo baru: Rp" + saldo);
     }
 
-    /**
-     * Menampilkan ringkasan saldo.
-     */
+
     public double cekSaldo() {
         System.out.println("Nomor Rekening : " + nomorRekening);
         System.out.println("Nama Pemilik   : " + namaPemilik);
