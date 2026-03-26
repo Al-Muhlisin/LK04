@@ -138,7 +138,6 @@ Proyek ini **sudah selesai** dan mengimplementasikan:
 LK04/
 ├── README.md
 ├── .gitignore
-├── test.txt
 └── src/
     └── banking/
         ├── Date.java
