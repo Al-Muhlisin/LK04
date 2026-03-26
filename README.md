@@ -155,14 +155,6 @@ LK04/
 
 ---
 
-## 🔒 Batasan yang Dipatuhi
-
-- Proyek ini mengikuti batasan: **hanya menggunakan `java.util.Scanner`** sebagai import library util.
-- Tidak menggunakan `java.util.Date`.
-- Untuk mempertahankan requirement atribut `tanggalMembuka` bertipe `Date`, digunakan kelas internal `banking.Date`.
-
----
-
 ## ▶️ Cara Kompilasi & Menjalankan
 
 Dari root proyek (`LK04`):
