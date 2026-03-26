@@ -2,9 +2,6 @@ package banking;
 
 import java.util.Scanner;
 
-/**
- * Demo dan pengujian sederhana semua komponen LK04.
- */
 public class Main {
 
     private static void tampilMenu() {
