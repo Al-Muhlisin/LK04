@@ -1,8 +1,5 @@
 package banking;
 
-/**
- * Kelas implementasi konkret yang mengintegrasikan rekening valas dan protokol keamanan.
- */
 public class TransaksiBank extends RekeningValas {
 
     private final ProtocolKeamanan protocolKeamanan;
